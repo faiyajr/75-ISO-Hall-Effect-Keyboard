@@ -1,0 +1,6045 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9df5bd41-52ef-4db3-8232-295978b26682")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 86.36 185.42) (xy 86.36 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15769cbf-ebaa-4177-ac83-43ffdfb43e3b")
+	)
+	(wire
+		(pts
+			(xy 276.86 115.57) (xy 279.4 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15bc2d2a-a350-486a-8f5b-1b288d9f573b")
+	)
+	(wire
+		(pts
+			(xy 204.47 101.6) (xy 207.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16dc2b56-9a52-46ff-ab9e-4fbe36ca83d9")
+	)
+	(wire
+		(pts
+			(xy 107.95 143.51) (xy 110.49 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1873f151-3864-4a82-b987-579b6dae8622")
+	)
+	(wire
+		(pts
+			(xy 228.6 171.45) (xy 231.14 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a955c23-9ec3-4e07-a324-a79213ac3a80")
+	)
+	(wire
+		(pts
+			(xy 374.65 157.48) (xy 374.65 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f474085-5d09-4170-b573-c83b73b16717")
+	)
+	(wire
+		(pts
+			(xy 349.25 115.57) (xy 351.79 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8996df-1cca-4af5-9a4f-d9d1550af8eb")
+	)
+	(wire
+		(pts
+			(xy 156.21 101.6) (xy 158.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220eb034-9f4b-47a7-bed1-4790913ec520")
+	)
+	(wire
+		(pts
+			(xy 59.69 199.39) (xy 63.5 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233bfd41-deb1-454a-b174-3b3d8ca6ae72")
+	)
+	(wire
+		(pts
+			(xy 59.69 143.51) (xy 62.23 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e67cd9-8979-4527-8bed-b092aec9b4a1")
+	)
+	(wire
+		(pts
+			(xy 349.25 171.45) (xy 351.79 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b50713-53b6-4168-9dcf-f0419ffde103")
+	)
+	(wire
+		(pts
+			(xy 300.99 171.45) (xy 303.53 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c46b06e-82d6-4f88-bf18-820072ab8190")
+	)
+	(wire
+		(pts
+			(xy 62.23 101.6) (xy 48.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbb5fd1-82e5-4a78-b28b-55313876225b")
+	)
+	(wire
+		(pts
+			(xy 228.6 101.6) (xy 231.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7e1985-5cb8-408f-bf9f-0c19bc80554f")
+	)
+	(wire
+		(pts
+			(xy 132.08 101.6) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3131df95-1c3d-4cf7-b039-3c5a88257256")
+	)
+	(wire
+		(pts
+			(xy 132.08 171.45) (xy 134.62 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f40338-ed82-4786-a5bf-70c401960470")
+	)
+	(wire
+		(pts
+			(xy 300.99 115.57) (xy 303.53 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34282d8e-f4f4-4ae8-b7af-2b684fb450e3")
+	)
+	(wire
+		(pts
+			(xy 300.99 143.51) (xy 303.53 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344be611-8946-4a71-a475-ca50c2e84987")
+	)
+	(wire
+		(pts
+			(xy 374.65 171.45) (xy 373.38 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348bd8a8-5602-4742-b6aa-b2deb21ee896")
+	)
+	(wire
+		(pts
+			(xy 252.73 157.48) (xy 255.27 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3499cbf9-9248-4e00-9f5c-0019f86497ed")
+	)
+	(wire
+		(pts
+			(xy 204.47 157.48) (xy 207.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b3a953-25bb-4fbc-a802-147d9eead7d7")
+	)
+	(wire
+		(pts
+			(xy 252.73 115.57) (xy 255.27 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34bda507-22d4-4e4f-8493-88f0716cf1f9")
+	)
+	(wire
+		(pts
+			(xy 85.09 199.39) (xy 86.36 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39393e41-f92c-4810-bfaf-23a0cfeefb33")
+	)
+	(wire
+		(pts
+			(xy 325.12 101.6) (xy 327.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3edc0f7e-4d4a-44b7-a9f6-0fe5ee8bb384")
+	)
+	(wire
+		(pts
+			(xy 349.25 101.6) (xy 351.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415533f3-ca7f-4182-b990-0cee203412a0")
+	)
+	(wire
+		(pts
+			(xy 156.21 171.45) (xy 158.75 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41dd1600-6f04-4dbc-9475-0c286db6c2a8")
+	)
+	(wire
+		(pts
+			(xy 83.82 143.51) (xy 86.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45484550-49b3-461c-8fbb-1e586c37118c")
+	)
+	(wire
+		(pts
+			(xy 300.99 157.48) (xy 303.53 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4641928c-ce43-4799-a292-98cf5a09ac21")
+	)
+	(wire
+		(pts
+			(xy 180.34 129.54) (xy 182.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468a8ec2-1893-415d-9991-919f5f3abd1f")
+	)
+	(wire
+		(pts
+			(xy 132.08 115.57) (xy 134.62 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48275bc4-315a-49e0-a5bd-7c401c620a14")
+	)
+	(wire
+		(pts
+			(xy 38.1 115.57) (xy 36.83 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498465f8-7efb-4c55-88eb-622cf096a757")
+	)
+	(wire
+		(pts
+			(xy 60.96 185.42) (xy 63.5 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c472c88-9f95-40a3-9787-ce7e87e8c50b")
+	)
+	(wire
+		(pts
+			(xy 276.86 143.51) (xy 279.4 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d32988a-b9eb-4453-bdcd-6fb2fbd8aeb7")
+	)
+	(wire
+		(pts
+			(xy 180.34 157.48) (xy 182.88 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de937e9-f312-403f-b006-906ba6fc9249")
+	)
+	(wire
+		(pts
+			(xy 36.83 157.48) (xy 62.23 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc75685-fb22-4495-b245-9e2f3ac03da2")
+	)
+	(wire
+		(pts
+			(xy 325.12 115.57) (xy 327.66 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52770b51-3931-44b8-b0a9-77b2d5a52382")
+	)
+	(wire
+		(pts
+			(xy 252.73 143.51) (xy 255.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c9e18a-fb00-470a-8f04-a29dc206440e")
+	)
+	(wire
+		(pts
+			(xy 36.83 143.51) (xy 36.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5396f8de-20f5-4f15-8019-7d0c172e16b3")
+	)
+	(wire
+		(pts
+			(xy 59.69 129.54) (xy 62.23 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b7f141-c702-4fd5-8c22-5e180f0e122a")
+	)
+	(wire
+		(pts
+			(xy 276.86 157.48) (xy 279.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b246ff6-0641-495a-bccb-adf62cd9a4d9")
+	)
+	(wire
+		(pts
+			(xy 325.12 157.48) (xy 327.66 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc905ec-9309-41a9-b0a9-7f7573450729")
+	)
+	(wire
+		(pts
+			(xy 349.25 157.48) (xy 351.79 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a38186-5a93-42da-842c-8c3b69252427")
+	)
+	(wire
+		(pts
+			(xy 107.95 171.45) (xy 110.49 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f4c5fa-7248-4de7-b4ed-a296adccb9e4")
+	)
+	(wire
+		(pts
+			(xy 180.34 115.57) (xy 182.88 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662f665b-1490-4922-a6a3-d0bd786f3f63")
+	)
+	(wire
+		(pts
+			(xy 156.21 115.57) (xy 158.75 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ea474b-b71b-40b9-9dcd-efb988f548e0")
+	)
+	(wire
+		(pts
+			(xy 156.21 129.54) (xy 158.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6807538d-fcc8-4bb8-aa18-44e0161ce300")
+	)
+	(wire
+		(pts
+			(xy 204.47 115.57) (xy 207.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3bafee-2d6d-48c5-adb4-5fc97483ea88")
+	)
+	(wire
+		(pts
+			(xy 276.86 171.45) (xy 279.4 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ded8e44-2208-48bc-903a-8414004bba97")
+	)
+	(wire
+		(pts
+			(xy 252.73 171.45) (xy 255.27 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78359a0b-ad4a-47c3-b333-3f8674f3d6ba")
+	)
+	(wire
+		(pts
+			(xy 132.08 129.54) (xy 134.62 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78827bd7-3158-4dbc-8e9c-ad91daaae887")
+	)
+	(wire
+		(pts
+			(xy 60.96 171.45) (xy 60.96 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d1f3d2-2e42-419d-9338-1459e67483ac")
+	)
+	(wire
+		(pts
+			(xy 83.82 115.57) (xy 86.36 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e2581c-a175-4cb1-b894-85c769a7dcf1")
+	)
+	(wire
+		(pts
+			(xy 349.25 143.51) (xy 351.79 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81493259-db37-4420-bea6-8a3ca78a9a05")
+	)
+	(wire
+		(pts
+			(xy 300.99 101.6) (xy 303.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8169511f-0336-489b-9df5-e2d5ddbdd71d")
+	)
+	(wire
+		(pts
+			(xy 276.86 101.6) (xy 279.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819413ef-c9f5-494f-9135-f5293f001db9")
+	)
+	(wire
+		(pts
+			(xy 204.47 171.45) (xy 207.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8340e3bf-1425-4231-bfb6-a24b7e0c7894")
+	)
+	(wire
+		(pts
+			(xy 252.73 101.6) (xy 255.27 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857cddc2-9977-42d4-b8da-a9e3739ab76e")
+	)
+	(wire
+		(pts
+			(xy 204.47 129.54) (xy 207.01 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e32c115-b4f1-4b93-aec4-a7309a09b4d5")
+	)
+	(wire
+		(pts
+			(xy 107.95 129.54) (xy 110.49 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9122004a-1b97-4b77-84b8-9dc71414a96c")
+	)
+	(wire
+		(pts
+			(xy 204.47 143.51) (xy 207.01 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9324ef64-00f5-4264-ba2e-f203ad61f84b")
+	)
+	(wire
+		(pts
+			(xy 180.34 143.51) (xy 182.88 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9451d7a6-e6b8-42e1-9ef2-47d591ca0ae1")
+	)
+	(wire
+		(pts
+			(xy 36.83 129.54) (xy 38.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99bc9ba7-a825-40bf-b06e-d14c2a957c85")
+	)
+	(wire
+		(pts
+			(xy 85.09 185.42) (xy 86.36 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c18ea6-d504-4a41-9045-5df5433355ff")
+	)
+	(wire
+		(pts
+			(xy 325.12 129.54) (xy 327.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6b5df8-5411-4000-afb9-4ac4efd423a6")
+	)
+	(wire
+		(pts
+			(xy 83.82 157.48) (xy 86.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba3ba09-2a2d-4890-a197-f1d35c734b14")
+	)
+	(wire
+		(pts
+			(xy 325.12 143.51) (xy 327.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f28406d-1eb4-4f84-a9bd-62c5d84c2d64")
+	)
+	(wire
+		(pts
+			(xy 38.1 143.51) (xy 36.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17e0822-dc21-4afb-997d-85f1991958be")
+	)
+	(wire
+		(pts
+			(xy 374.65 115.57) (xy 373.38 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17f0d3f-45ed-4f3f-ac28-ab2287250e3d")
+	)
+	(wire
+		(pts
+			(xy 276.86 129.54) (xy 279.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a562774b-8850-4875-8ae6-4e134fa63890")
+	)
+	(wire
+		(pts
+			(xy 375.92 143.51) (xy 373.38 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5a55d3-5982-41af-91f3-131aeb984232")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbe3388-b18a-4967-bd03-76dd2ba0d38f")
+	)
+	(wire
+		(pts
+			(xy 349.25 129.54) (xy 375.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0949545-d951-4ffb-8552-86a12565e9a4")
+	)
+	(wire
+		(pts
+			(xy 107.95 115.57) (xy 110.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ff21ef-e27e-41de-9474-2d253f51f29a")
+	)
+	(wire
+		(pts
+			(xy 228.6 115.57) (xy 231.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e93009-2106-47f3-94c2-74d678e60a67")
+	)
+	(wire
+		(pts
+			(xy 300.99 129.54) (xy 303.53 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d2d85d-153a-49c2-a132-243430e07c24")
+	)
+	(wire
+		(pts
+			(xy 50.8 199.39) (xy 54.61 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3d209b-2c12-4eb9-894c-8a152569f369")
+	)
+	(wire
+		(pts
+			(xy 252.73 129.54) (xy 255.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0acac9d-7248-4e0e-9803-75af6ad84952")
+	)
+	(wire
+		(pts
+			(xy 156.21 143.51) (xy 158.75 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0adf5a2-611f-4ae5-b3ae-a9e7c3e19dba")
+	)
+	(wire
+		(pts
+			(xy 228.6 157.48) (xy 231.14 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1213144-c1b5-4a69-90dc-940d8d5d4778")
+	)
+	(wire
+		(pts
+			(xy 375.92 129.54) (xy 375.92 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29fb4bd-e372-4c1d-9df7-3c7b95a0de2f")
+	)
+	(wire
+		(pts
+			(xy 132.08 143.51) (xy 134.62 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c318aa5d-1def-489e-9d9d-22a2843afa48")
+	)
+	(wire
+		(pts
+			(xy 83.82 101.6) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c404a199-c892-4393-ba52-d270da929480")
+	)
+	(wire
+		(pts
+			(xy 36.83 115.57) (xy 36.83 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ae5128-5df1-4695-ba46-a016934facd2")
+	)
+	(wire
+		(pts
+			(xy 132.08 157.48) (xy 134.62 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68784d9-2195-4a6b-ba75-64e3ec276ac5")
+	)
+	(wire
+		(pts
+			(xy 180.34 171.45) (xy 182.88 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc27daf2-8878-4a42-893a-f172a250fb73")
+	)
+	(wire
+		(pts
+			(xy 325.12 171.45) (xy 327.66 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd20ceae-b149-4d1e-a63b-ca7c9448d506")
+	)
+	(wire
+		(pts
+			(xy 373.38 157.48) (xy 374.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd2a7cc-b0e8-4533-89ea-ee6f4f8e68ae")
+	)
+	(wire
+		(pts
+			(xy 59.69 115.57) (xy 62.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ccf570-1145-41e9-a0a6-b643c36ddeab")
+	)
+	(wire
+		(pts
+			(xy 86.36 171.45) (xy 60.96 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53e51a1-dc7b-4d33-bdf4-3e6f0d9e8e20")
+	)
+	(wire
+		(pts
+			(xy 374.65 101.6) (xy 374.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7488394-3a3b-4587-8967-6a951ac4b787")
+	)
+	(wire
+		(pts
+			(xy 228.6 143.51) (xy 231.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8dd4404-92b5-4f61-9b72-b71638c053ce")
+	)
+	(wire
+		(pts
+			(xy 228.6 129.54) (xy 231.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f857ad05-54c1-4463-b719-3b15c9e9944a")
+	)
+	(wire
+		(pts
+			(xy 156.21 157.48) (xy 158.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca5ad9f-f932-46f7-8de2-3126d6bdb713")
+	)
+	(wire
+		(pts
+			(xy 83.82 129.54) (xy 86.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd376bf3-2438-4f0f-a540-a6696982066e")
+	)
+	(wire
+		(pts
+			(xy 373.38 101.6) (xy 374.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed8b539-ce54-44bd-8591-da3236ed65d3")
+	)
+	(wire
+		(pts
+			(xy 107.95 101.6) (xy 110.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff53c822-6f25-4607-b943-d888dc26a760")
+	)
+	(wire
+		(pts
+			(xy 107.95 157.48) (xy 110.49 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff56d1fa-3ff9-4770-869d-5e5ea46ac6ca")
+	)
+	(hierarchical_label "RGB_DATA_IN"
+		(shape input)
+		(at 48.26 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e10038e-b7a3-4123-86a8-192ed78643cf")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 57.15 199.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0200062b-86d3-4dff-8295-02bac5e793e4")
+		(property "Reference" "R96"
+			(at 57.15 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 57.15 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 57.15 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 57.15 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc77b2eb-d734-4a0c-b477-e0907dd9d0d6")
+		)
+		(pin "2"
+			(uuid "e95e2f9b-1faa-42ce-b384-31740fdfcf06")
+		)
+		(instances
+			(project ""
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(reference "R96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 199.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2807ff33-2463-4d51-9157-c134a8c5c4ab")
+		(property "Reference" "TP1"
+			(at 47.498 201.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RGB_DATA_OUT"
+			(at 47.752 202.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 50.8 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da407736-4a13-41a2-b776-bb9aa2752f49")
+		)
+		(instances
+			(project ""
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "024179d6-68f2-4e36-b415-7b37b40961f7")
+		(property "Sheetname" "sk6812mini-e-rot30"
+			(at 279.4 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 279.4 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 279.4 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "29276db2-2e5c-4429-b1f5-c910f7428658")
+		)
+		(pin "Din" input
+			(at 300.99 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3db27c54-5035-4228-a96e-b580184af054")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "156")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03473c73-89b1-4ba5-a3a9-4a61e2d138f3")
+		(property "Sheetname" "sk6812mini-e-rot25"
+			(at 62.23 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 62.23 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 62.23 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "855a0439-e156-47fb-b631-6d6593c3cd26")
+		)
+		(pin "Din" input
+			(at 83.82 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eace45d4-3df3-442d-aad7-15ab1a5550f2")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "138")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "034e8ad3-745b-483b-aab4-d9d17ea31be0")
+		(property "Sheetname" "sk6812mini-e-rot21"
+			(at 158.75 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 158.75 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 158.75 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1582945c-ca6a-436b-9a5f-4056980a8273")
+		)
+		(pin "Din" input
+			(at 180.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4014a0b-7c56-401b-8562-10301831f704")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "134")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "04df40b7-25f8-4c42-9010-03665fffb4da")
+		(property "Sheetname" "sk6812mini-e-rot19"
+			(at 207.01 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 207.01 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 207.01 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "578ea7a1-12c8-445b-acb3-d5bac85d5a16")
+		)
+		(pin "Din" input
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4d5f8e8d-f962-4d79-af60-3eda1f8c002c")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "132")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "051bf3ed-1fc8-4df4-9f20-310b06f71256")
+		(property "Sheetname" "sk6812mini-e-rot11"
+			(at 86.36 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 86.36 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 86.36 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d423a778-1a4d-4568-b6c3-0185aeab5724")
+		)
+		(pin "Din" input
+			(at 107.95 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ca2c9ee4-483d-444a-9175-b61792f45f5e")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "110")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06fac206-1018-4014-b94d-5e0237c78490")
+		(property "Sheetname" "sk6812mini-e15"
+			(at 86.36 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 86.36 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fca3ec3e-c47b-441a-b958-1c6a408564fe")
+		)
+		(pin "Din" input
+			(at 86.36 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e3ac739-2783-4bc1-a01b-17e0604cb8ba")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "115")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d5bec7b-2619-4fea-87f2-2aa1b399f2de")
+		(property "Sheetname" "sk6812mini-e6"
+			(at 207.01 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 207.01 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84566aad-9557-465f-a994-4babdc91f47a")
+		)
+		(pin "Din" input
+			(at 207.01 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a63e88b-a9d0-458f-b9f2-fbb5e19d6568")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "92")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ef33708-a9a0-4b19-b31b-f071044bae82")
+		(property "Sheetname" "sk6812mini-e23"
+			(at 279.4 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 279.4 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 300.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b81ef0f-24cc-4677-a9a9-766657bdd1b7")
+		)
+		(pin "Din" input
+			(at 279.4 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d921e40f-d8c5-4792-a2de-a0eed24f00df")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "123")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "11f21610-e9ab-48c1-b158-9f807a86a3d7")
+		(property "Sheetname" "sk6812mini-e29"
+			(at 110.49 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 110.49 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 132.08 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f2600170-16d8-4774-8ec1-72483d2d376a")
+		)
+		(pin "Din" input
+			(at 110.49 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1767580f-4ee9-4012-bd01-21d90e1ffc16")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "142")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "12da3aa8-b750-4b04-9b5d-05d0429bba39")
+		(property "Sheetname" "sk6812mini-e14"
+			(at 62.23 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 62.23 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 83.82 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7c6a635-5aeb-46d0-81c5-e375e148a3dc")
+		)
+		(pin "Din" input
+			(at 62.23 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "557bf52f-215b-4046-8db3-3ca71874a6a8")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "114")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1314dddf-2829-4cda-94d6-ec3eee4be234")
+		(property "Sheetname" "sk6812mini-e38"
+			(at 327.66 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 327.66 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 349.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d8a7756-194e-4400-bf6f-8ad10573ba6d")
+		)
+		(pin "Din" input
+			(at 327.66 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b154bb4-32c3-48a9-9b0a-72dcbdd31ee6")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "151")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "141b5a61-c0d8-491d-aed9-9215a99717f9")
+		(property "Sheetname" "sk6812mini-e-rot33"
+			(at 207.01 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 207.01 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 207.01 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8b458ae-b832-4e07-93d7-a6e4d500ea27")
+		)
+		(pin "Din" input
+			(at 228.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87cdaaf7-a37d-48c3-9383-1e5fb4d8338e")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "159")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19d2be41-3703-40f9-b27e-a7cd1ee66771")
+		(property "Sheetname" "sk6812mini-e-rot24"
+			(at 86.36 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 86.36 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 86.36 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f7dd484c-6102-4756-9c89-aa34ab1e8ca2")
+		)
+		(pin "Din" input
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ce2d7c2-cd22-4a59-8ea8-8b9e4ab670b9")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "137")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1fe23b4a-125d-4841-ae18-baf8ff6def8e")
+		(property "Sheetname" "sk6812mini-e-rot3"
+			(at 279.4 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 279.4 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 279.4 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3cd0ba61-3195-4c87-8f66-4f5c583fdfb3")
+		)
+		(pin "Din" input
+			(at 300.99 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2631c84f-fc66-438d-8a4e-ef1cb0870350")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "102")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2161653f-0c5b-436a-8788-dbfb368c26cf")
+		(property "Sheetname" "sk6812mini-e19"
+			(at 182.88 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 182.88 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 204.47 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "13f9a143-7ff0-47d3-bafa-46f5e176cca5")
+		)
+		(pin "Din" input
+			(at 182.88 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd3bd065-f8da-4acc-bf83-757d4409b730")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "119")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 303.53 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2374db00-a6ed-4a48-a2ba-a1fda185e714")
+		(property "Sheetname" "sk6812mini-e24"
+			(at 303.53 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 303.53 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 325.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9483e3c4-e91b-4a2e-be79-1a24b969e5db")
+		)
+		(pin "Din" input
+			(at 303.53 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dcb65f25-d8db-4326-8bc2-423b13813be8")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "124")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "261d9e84-527f-493c-a8ca-80c21a1e5611")
+		(property "Sheetname" "sk6812mini-e2"
+			(at 110.49 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 110.49 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07fa88e4-01ea-44ad-99db-52c98752ab75")
+		)
+		(pin "Din" input
+			(at 110.49 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa670c95-5c4b-4a54-a492-efb528e3169b")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "88")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 351.79 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "278b421a-517f-49fe-81a6-ddd2b9cace55")
+		(property "Sheetname" "sk6812mini-e-rot"
+			(at 351.79 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 351.79 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 351.79 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa762f47-39a4-49b4-bb52-49a7555684bd")
+		)
+		(pin "Din" input
+			(at 373.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "340cf46a-60ef-4aab-9f59-ffd52ab418a2")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "99")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2d735934-962c-496a-8d21-07e766b202e3")
+		(property "Sheetname" "sk6812mini-e11"
+			(at 327.66 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 327.66 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 349.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "101704b0-46cb-4b83-9905-23a27853d8a0")
+		)
+		(pin "Din" input
+			(at 327.66 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f960e0a6-90c8-4c2e-b2b0-2894c0783feb")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "97")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f470bb0-5579-45d2-8440-bc6e3336c90a")
+		(property "Sheetname" "sk6812mini-e8"
+			(at 255.27 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 255.27 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 276.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6874fbf7-b52b-43b5-8144-f01c2df5c3b2")
+		)
+		(pin "Din" input
+			(at 255.27 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a602aabe-fa88-4005-aca9-d948cd54d258")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "94")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34657bdc-3190-4ef4-8aea-714381389e70")
+		(property "Sheetname" "sk6812mini-e-rot14"
+			(at 327.66 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 327.66 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 327.66 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "410f9faf-411b-49b4-a308-a2e7f8664276")
+		)
+		(pin "Din" input
+			(at 349.25 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79c8667a-5062-440e-aaea-22d16d8ec6dc")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "127")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "39e7a2e3-2c7c-460a-924b-452d91c3efe3")
+		(property "Sheetname" "sk6812mini-e18"
+			(at 158.75 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 158.75 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 180.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6ce7d14-537c-4925-9877-8d27ca5c0920")
+		)
+		(pin "Din" input
+			(at 158.75 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33342af3-9f64-4265-b99b-e530a5107446")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "118")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3df5642a-50f8-40f0-86d6-3e296631c494")
+		(property "Sheetname" "sk6812mini-e-rot36"
+			(at 134.62 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 134.62 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 134.62 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0cec4e1-a4a7-4ea0-94bc-a4a3cc1843d6")
+		)
+		(pin "Din" input
+			(at 156.21 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "59b460a2-0b0b-4740-8a32-963497cdc677")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "162")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f678c1e-934c-4963-ba66-c70216641eaf")
+		(property "Sheetname" "sk6812mini-e-rot13"
+			(at 38.1 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 38.1 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 38.1 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e910c8a0-fae7-4a31-afac-9602f1f26e00")
+		)
+		(pin "Din" input
+			(at 59.69 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ad154cf-0541-4ffd-a986-d62b8c6cbf0a")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "112")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "416d22c7-d0ff-40ad-b03f-d9518209503a")
+		(property "Sheetname" "sk6812mini-e22"
+			(at 255.27 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 255.27 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 276.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7020828c-25ab-4f53-9cdf-1068eac60dd9")
+		)
+		(pin "Din" input
+			(at 255.27 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b1aa1e3-5f5e-479d-ae1d-25877e476055")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "122")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41815f1e-9d4c-49d5-ba2c-8c2bfd501ccd")
+		(property "Sheetname" "sk6812mini-e-rot17"
+			(at 255.27 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 255.27 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 255.27 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f84956a-fcfd-4640-adc6-2774f1023da5")
+		)
+		(pin "Din" input
+			(at 276.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a63ff93a-5c10-4321-984d-165c76178f0a")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "130")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42c48599-dd54-4e91-8aff-f2f4cac71114")
+		(property "Sheetname" "sk6812mini-e5"
+			(at 182.88 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 182.88 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 204.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10b867ff-1536-4718-a768-e1c7a3b75efb")
+		)
+		(pin "Din" input
+			(at 182.88 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b289bf72-44c0-4608-b3e7-9799a7a66933")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "91")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 351.79 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45196c05-6c71-4d5d-9035-a0fd9d87755f")
+		(property "Sheetname" "sk6812mini-e39"
+			(at 351.79 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 351.79 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c94efa56-7ec5-42ed-a424-52bd9436e8bb")
+		)
+		(pin "Din" input
+			(at 351.79 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa488ecf-c62d-463b-9d84-1441e864424e")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "152")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49ba2f7f-f67e-4a71-b9be-057e37af057f")
+		(property "Sheetname" "sk6812mini-e-rot39"
+			(at 86.36 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 86.36 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 86.36 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3aeb469-a79c-41f8-a206-1abb80aeec5e")
+		)
+		(pin "Din" input
+			(at 107.95 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ddc147c1-b881-4333-9172-de07b0197ce8")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "164")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4bf6e583-d0cc-439c-a4ea-dc26b848a337")
+		(property "Sheetname" "sk6812mini-e30"
+			(at 134.62 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 134.62 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 156.21 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5376c69c-2bc0-4d92-9e8f-47a3e30352de")
+		)
+		(pin "Din" input
+			(at 134.62 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22b2366b-8408-43d9-ab5c-c23b2dff4304")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "143")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d43afd6-9d62-4795-be9e-b33677ff0008")
+		(property "Sheetname" "sk6812mini-e-rot9"
+			(at 134.62 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 134.62 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 134.62 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "76a8dccb-06c3-42f8-986a-4af9ce803d39")
+		)
+		(pin "Din" input
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d276a33d-d1d7-46a6-8aad-34a380bba04f")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "108")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d867171-15c6-4416-8395-83a5c2da474b")
+		(property "Sheetname" "sk6812mini-e17"
+			(at 134.62 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 134.62 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f2a6d95-95cb-4c4c-afdb-42f889e1e629")
+		)
+		(pin "Din" input
+			(at 134.62 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3761518a-8bde-4bee-8ad7-26ea2a39eadb")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "117")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e773e5f-9016-4a12-9c71-2c01157986ae")
+		(property "Sheetname" "sk6812mini-e32"
+			(at 182.88 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 182.88 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 204.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92cf93ae-acb8-4e0a-a05d-53eb8111caa4")
+		)
+		(pin "Din" input
+			(at 182.88 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cfa96db3-78f0-49b9-8e78-cbbe6f4b33d8")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "145")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5027b415-aa48-4bbe-9282-407415b8c893")
+		(property "Sheetname" "sk6812mini-e-rot12"
+			(at 62.23 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 62.23 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 62.23 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "344b82ff-b9a5-4172-97f8-942f8f8f2bba")
+		)
+		(pin "Din" input
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d2c75b3b-b1df-4543-a854-745be224c6c5")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "111")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5226ee72-97f7-4324-b353-f5e8d9ea99bc")
+		(property "Sheetname" "sk6812mini-e25"
+			(at 327.66 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 327.66 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 349.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5dbbc163-f304-4228-a540-c039990fa577")
+		)
+		(pin "Din" input
+			(at 327.66 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b00cb40-0265-40b1-86f9-0aa13cd9f333")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "125")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "524973f8-53ee-429f-a9cb-b8552bb2cc6a")
+		(property "Sheetname" "sk6812mini-e9"
+			(at 279.4 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 279.4 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 300.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c067e1fc-907d-41ca-9fbc-6591d0a70a83")
+		)
+		(pin "Din" input
+			(at 279.4 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1cddb13e-4033-42f4-8594-29e5eace3d42")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "95")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "577f9dc0-a354-4a9a-b6b1-aafc575091a7")
+		(property "Sheetname" "sk6812mini-e-rot6"
+			(at 207.01 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 207.01 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 207.01 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1b75129-3de0-4610-975e-6aa9ff50d055")
+		)
+		(pin "Din" input
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9583f461-1933-4a3f-a6f2-fff89bdd5088")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "105")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 303.53 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57922c3d-4924-470f-bee9-ad5c1efda5d8")
+		(property "Sheetname" "sk6812mini-e-rot15"
+			(at 303.53 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 303.53 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 303.53 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e10b1106-55d2-43af-89a7-17a2c541260e")
+		)
+		(pin "Din" input
+			(at 325.12 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0864836-c4d7-4519-acbf-d59284450be9")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "128")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58e449be-c079-47f5-9d58-badb0040ba89")
+		(property "Sheetname" "sk6812mini-e-rot31"
+			(at 255.27 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 255.27 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 255.27 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "541ddf6c-f518-40c1-9a50-5a34ed0afcf8")
+		)
+		(pin "Din" input
+			(at 276.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65547042-94c8-45b7-9d98-ac0a88224493")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "157")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 303.53 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "592bea38-23bc-47ce-8943-839a12eff83c")
+		(property "Sheetname" "sk6812mini-e-rot29"
+			(at 303.53 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 303.53 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 303.53 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1cdd8a67-9cbf-4bbd-ae7e-c137895024ac")
+		)
+		(pin "Din" input
+			(at 325.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf33f097-244e-4e3d-b75f-ce45c18276b3")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "155")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b9c1f68-7d99-4d4a-8cc9-224ad46bea69")
+		(property "Sheetname" "sk6812mini-e16"
+			(at 110.49 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 110.49 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 132.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7f82d7a7-618d-4d17-9cf4-ec10469ff8bd")
+		)
+		(pin "Din" input
+			(at 110.49 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41a58ed2-93ed-4dec-a0a5-4b2f7cfcf6b7")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "116")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61116051-3276-4bf5-adeb-ec2ebd93efe2")
+		(property "Sheetname" "sk6812mini-e-rot5"
+			(at 231.14 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 231.14 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 231.14 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3e25996-b68b-431a-8cee-8d88d286e550")
+		)
+		(pin "Din" input
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c309fb82-396f-4244-ab5e-230ff9e428d4")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "104")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62896345-f0c4-4540-99a7-c3c911595e15")
+		(property "Sheetname" "sk6812mini-e-rot32"
+			(at 231.14 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 231.14 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 231.14 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "319eb500-92dc-4de8-bce0-1cdec7fbccd8")
+		)
+		(pin "Din" input
+			(at 252.73 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1dc5ca27-0b87-4655-8557-2887e109e3f5")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "158")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6525ddc6-b9e7-4f0d-ac7c-586a87a39ffa")
+		(property "Sheetname" "sk6812mini-e-rot10"
+			(at 110.49 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 110.49 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 110.49 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d33f55d-8e94-4670-9a98-af59fe6ae29e")
+		)
+		(pin "Din" input
+			(at 132.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6fee402d-5e20-479f-9b12-9b4322ff5b47")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "109")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "667507d2-f3f0-4818-b2cd-76669057ba0a")
+		(property "Sheetname" "sk6812mini-e-rot22"
+			(at 134.62 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 134.62 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 134.62 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec20c142-d600-4f84-a819-a7afa6943969")
+		)
+		(pin "Din" input
+			(at 156.21 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c1ada939-0aa3-4773-a441-18ca56f05adf")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "135")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d721997-3f71-400f-8230-b3bdd7a30316")
+		(property "Sheetname" "sk6812mini-e-rot16"
+			(at 279.4 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 279.4 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 279.4 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "011ce466-8228-4986-8611-607157e30c22")
+		)
+		(pin "Din" input
+			(at 300.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1646b736-3023-4f46-bb1f-e9c4ad6761c9")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "129")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e560459-3ee8-4d5a-b144-77d78157d3ea")
+		(property "Sheetname" "sk6812mini-e"
+			(at 62.23 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 62.23 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b2d5bd7-b7a4-42ee-91e5-25ca341113f7")
+		)
+		(pin "Din" input
+			(at 62.23 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3971e257-69c4-4f06-88e3-ccedf4d1ebfd")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "86")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8119a6a3-edde-4a1e-97af-fdb14d3304d1")
+		(property "Sheetname" "sk6812mini-e-rot1"
+			(at 327.66 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 327.66 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 327.66 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07397056-a2da-43e1-b451-3983e1c6dd41")
+		)
+		(pin "Din" input
+			(at 349.25 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a7168d2e-42ad-4318-ac92-7b430db4de08")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "100")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8917f80e-afef-4ac1-b052-2ae007869387")
+		(property "Sheetname" "sk6812mini-e7"
+			(at 231.14 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 231.14 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 252.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "31ed807d-fddc-49d9-88c2-469a83f7f655")
+		)
+		(pin "Din" input
+			(at 231.14 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9dba1c59-112b-4710-ae02-b88620cff0c6")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "93")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8e27d7da-dc6e-4940-89c4-b2587e138556")
+		(property "Sheetname" "sk6812mini-e-rot4"
+			(at 255.27 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 255.27 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 255.27 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "70cb640a-ff20-4c32-acf8-e25770126e3f")
+		)
+		(pin "Din" input
+			(at 276.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "001e0d46-23b5-46ab-a876-23e86f48c247")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "103")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 303.53 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fc119f6-fef9-46b0-8113-b6268c217c44")
+		(property "Sheetname" "sk6812mini-e37"
+			(at 303.53 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 303.53 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 325.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4a4f7b51-9005-4d7e-9aef-378bcad88d97")
+		)
+		(pin "Din" input
+			(at 303.53 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ae1e118-b85b-4407-8fd2-c101ea9420e9")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "150")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "900dcee5-1099-48ca-b9ab-e8948853fe62")
+		(property "Sheetname" "sk6812mini-e35"
+			(at 255.27 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 255.27 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 276.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "608ba02f-0cc3-4d0c-bf5a-df7d580684da")
+		)
+		(pin "Din" input
+			(at 255.27 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba93adea-f9b4-42e0-a196-3de8491dcec8")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "148")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "922f0413-d0a2-47c3-827d-5bc83985c05c")
+		(property "Sheetname" "sk6812mini-e-rot35"
+			(at 158.75 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 158.75 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 158.75 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9831f048-5125-491f-87c6-016251ca9bac")
+		)
+		(pin "Din" input
+			(at 180.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7de7c9f2-8780-4dd1-b2d1-c580a7acf116")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "161")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b5ac078-265a-4f0b-b03b-00c3a4129af5")
+		(property "Sheetname" "sk6812mini-e-rot23"
+			(at 110.49 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 110.49 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 110.49 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "94362405-41f5-481b-94d7-fc32bdefd083")
+		)
+		(pin "Din" input
+			(at 132.08 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7c6fc81-dfce-47dd-97d7-0a5c648709d9")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "136")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e1038a7-852f-4443-bb84-e4fb56179d9f")
+		(property "Sheetname" "sk6812mini-e1"
+			(at 86.36 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 86.36 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 107.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6f04c6e-e666-41e3-8522-066d7ed064ae")
+		)
+		(pin "Din" input
+			(at 86.36 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6936bb9c-570f-44c1-b0c5-9c9fc6eb195b")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "87")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 303.53 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e9c4f63-74d1-4021-9674-747cd8ff98cf")
+		(property "Sheetname" "sk6812mini-e-rot2"
+			(at 303.53 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 303.53 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 303.53 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8726e9c-46c1-4494-9ea3-9be722c56f3c")
+		)
+		(pin "Din" input
+			(at 325.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06fcdd1f-2f3b-47f1-9ea2-a1b0cc49b20e")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "101")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9eb2a5e1-8365-439f-ae28-027695d671f7")
+		(property "Sheetname" "sk6812mini-e4"
+			(at 158.75 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 158.75 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b9f46423-a075-45f6-80b2-8e692462cc70")
+		)
+		(pin "Din" input
+			(at 158.75 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "35289cba-5d0b-488c-829e-05fe6ddb0c9d")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "90")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 351.79 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f9e86c0-57d7-4000-af65-d89f8c591958")
+		(property "Sheetname" "sk6812mini-e-rot38"
+			(at 351.79 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 351.79 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 351.79 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "504834ca-5007-4fa4-9649-256d37df907a")
+		)
+		(pin "Din" input
+			(at 373.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6c471f95-b6fc-4fd4-867c-8a636099d8d3")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "126")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a2e97b84-15ad-455d-a740-53f6fac04a87")
+		(property "Sheetname" "sk6812mini-e-rot20"
+			(at 182.88 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 182.88 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 182.88 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe1edfcc-3ccc-46ac-9476-0df059068aed")
+		)
+		(pin "Din" input
+			(at 204.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a09993af-0c0a-4573-90b9-45e26ac40548")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "133")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae94ed0b-80e4-43b1-8fb6-9ee1d211f7da")
+		(property "Sheetname" "sk6812mini-e3"
+			(at 134.62 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 134.62 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 156.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d034cda9-c076-4b8c-b046-201255449545")
+		)
+		(pin "Din" input
+			(at 134.62 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "925e5e45-006d-432f-9342-8612811e1b12")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "89")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 303.53 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b176bc5e-89fa-4e22-a0bb-e31fd3752134")
+		(property "Sheetname" "sk6812mini-e10"
+			(at 303.53 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 303.53 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 325.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7be3e30f-60d7-4d64-8590-5c2eebb0615d")
+		)
+		(pin "Din" input
+			(at 303.53 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b038cef6-20c4-45d1-be54-d72f2f3e4000")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "96")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b76af551-05dc-4c85-9fd2-4fc29c27da8c")
+		(property "Sheetname" "sk6812mini-e27"
+			(at 62.23 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 62.23 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 83.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b1ce7862-0159-45e5-bb1a-d192b2888de3")
+		)
+		(pin "Din" input
+			(at 62.23 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "21f7959b-e79d-481a-9523-3b376a78cdd4")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "140")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9530f66-4082-4638-aee8-94f0d29b2cab")
+		(property "Sheetname" "sk6812mini-e28"
+			(at 86.36 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 86.36 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 107.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78f6c55d-3e9b-4df2-9ef8-2f0ff6be8b3e")
+		)
+		(pin "Din" input
+			(at 86.36 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "47e4531f-4d1e-43bc-91af-c27d2882b0df")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "141")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9b96879-a27a-479d-aa4e-2cc09a2b955e")
+		(property "Sheetname" "sk6812mini-e-rot7"
+			(at 182.88 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 182.88 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 182.88 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d277bbd1-0e5b-425b-9ffb-afdabf185722")
+		)
+		(pin "Din" input
+			(at 204.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b9f68d5-dafe-429c-8ed9-f6e1058ddc6a")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "106")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba867d40-66ee-4d2f-9cfb-18ebdd00bdba")
+		(property "Sheetname" "sk6812mini-e33"
+			(at 207.01 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 207.01 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 228.6 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4a29ed50-7f0c-427d-8c21-644c0f0fa518")
+		)
+		(pin "Din" input
+			(at 207.01 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "afc5b966-d46d-414c-9b01-7a97c969079e")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "146")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd5a1111-6605-4e62-9811-d482e58980a3")
+		(property "Sheetname" "sk6812mini-e21"
+			(at 231.14 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 231.14 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 252.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4d8f9909-fe75-42c6-a2c2-b6832300dd65")
+		)
+		(pin "Din" input
+			(at 231.14 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f08ed321-c69f-4622-bcf3-9e07eac4adc6")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "121")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bdca0141-7c03-4253-b88b-8be0482a99f7")
+		(property "Sheetname" "sk6812mini-e20"
+			(at 207.01 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 207.01 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 228.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99c67f3d-d615-44eb-a06f-b94dff53fa59")
+		)
+		(pin "Din" input
+			(at 207.01 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "520ff570-c0c0-45d1-839e-7df455b4fc00")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "120")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bee47e3a-b369-433f-b176-f8d1e106f26b")
+		(property "Sheetname" "sk6812mini-e-rot26"
+			(at 38.1 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 38.1 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 38.1 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f3c453e2-c506-4f16-992f-f7dcb88a11a5")
+		)
+		(pin "Din" input
+			(at 59.69 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7834ca7a-91ef-4ed1-bfff-74dab6f43903")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "139")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5667006-0d6c-4f58-8ef0-4874d4935efa")
+		(property "Sheetname" "sk6812mini-e-rot34"
+			(at 182.88 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 182.88 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 182.88 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d708a6c-384c-4ded-ba03-2b869196a39e")
+		)
+		(pin "Din" input
+			(at 204.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "392f6b99-5d2a-4110-96b7-ef9c55f62372")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "160")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6432ce7-f11e-448c-bd79-dcf324ef3186")
+		(property "Sheetname" "sk6812mini-e36"
+			(at 279.4 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 279.4 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 300.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5389ad63-fde3-436f-9f56-35e90b1e3004")
+		)
+		(pin "Din" input
+			(at 279.4 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be9fc421-08d7-4e32-87cc-7800995cbcde")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "149")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 351.79 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dad30c86-4ba3-49ee-ab2b-5a537b944084")
+		(property "Sheetname" "sk6812mini-e-rot27"
+			(at 351.79 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 351.79 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 351.79 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "95de3f88-2940-478e-a0df-29ee67b357f0")
+		)
+		(pin "Din" input
+			(at 373.38 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "09acf0b3-f88e-4c74-a7b9-551415507bac")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "153")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dcc98d34-b4c8-4487-954f-6420d9ed8463")
+		(property "Sheetname" "sk6812mini-e31"
+			(at 158.75 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 158.75 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e04cfbad-c35c-49b3-81e4-f183ff31829a")
+		)
+		(pin "Din" input
+			(at 158.75 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9181d03-d232-4a24-b239-131a66766664")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "144")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dcccc26c-082c-44e9-8e12-202996385847")
+		(property "Sheetname" "sk6812mini-e-rot28"
+			(at 327.66 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 327.66 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 327.66 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4858a9b-7832-49b9-9010-be2c36d7a8f7")
+		)
+		(pin "Din" input
+			(at 349.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "908e01e1-df68-4f9b-bb7b-0dd008f3307f")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "154")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 138.43)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de0f8ff7-cdaa-431f-a887-de9d5aed5477")
+		(property "Sheetname" "sk6812mini-e-rot18"
+			(at 231.14 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 231.14 148.9206 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 231.14 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b06c32f-728a-4cb1-a371-c57ddb23c0c2")
+		)
+		(pin "Din" input
+			(at 252.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6730633e-6b6e-498f-ab86-2c78df45cc52")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "131")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 166.37)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de9997a2-5214-4664-97f6-b1e664b2c5ba")
+		(property "Sheetname" "sk6812mini-e-rot37"
+			(at 110.49 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 110.49 176.8606 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 110.49 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "316e9cd1-97c6-493f-b42e-b6b96204a2ba")
+		)
+		(pin "Din" input
+			(at 132.08 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3bbfd6ea-e25d-40b9-9cf7-b8f006984c59")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "163")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 351.79 96.52)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e49cb341-98da-4ad6-bc5c-53a45250c46f")
+		(property "Sheetname" "sk6812mini-e12"
+			(at 351.79 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 351.79 107.0106 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 373.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f7b8c6b9-15ab-4d86-bfa9-867954b19278")
+		)
+		(pin "Din" input
+			(at 351.79 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a78db9c-5a76-402b-9359-c40029bcfa48")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "98")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 110.49)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e68f7d36-4c08-4cea-b17a-24bd5e9bc3f2")
+		(property "Sheetname" "sk6812mini-e-rot8"
+			(at 158.75 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 158.75 120.9806 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 158.75 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6bd2db25-1a38-4a6f-a7cc-c1ef7e1715f6")
+		)
+		(pin "Din" input
+			(at 180.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c23cb4f2-b822-4653-8717-e7dc5c5816bf")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "107")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 194.31)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5bc5e48-290d-43c5-8436-640b4cfb427a")
+		(property "Sheetname" "sk6812mini-e-rot40"
+			(at 63.5 193.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e-rot.kicad_sch"
+			(at 63.5 204.8006 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 63.5 199.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2df0c2c4-3b15-4457-a362-53ac7f7b1508")
+		)
+		(pin "Din" input
+			(at 85.09 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "67a9338f-a46f-46b0-9959-fa982178ddb7")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "166")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 124.46)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8e502d6-7a2c-48be-8d33-f36bb596f825")
+		(property "Sheetname" "sk6812mini-e13"
+			(at 38.1 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 38.1 134.9506 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 59.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cea26613-05a7-4e92-9dcf-e57860834770")
+		)
+		(pin "Din" input
+			(at 38.1 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4a48e444-71c2-462a-8169-c48d9e7c6ff9")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "113")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 180.34)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9783a4f-a568-45b4-a2a2-6cde8654b7a8")
+		(property "Sheetname" "sk6812mini-e40"
+			(at 63.5 179.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 63.5 190.8306 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 85.09 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7322499-5509-46b8-9ad2-406a7fa29e86")
+		)
+		(pin "Din" input
+			(at 63.5 185.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d63d3e0-126e-4b9c-8974-51943d237c61")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "165")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 152.4)
+		(size 21.59 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fdcf64e9-4bf8-44ee-bbbc-590bed2500da")
+		(property "Sheetname" "sk6812mini-e34"
+			(at 231.14 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sk6812mini-e_sch.kicad_sch"
+			(at 231.14 162.8906 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Dout" output
+			(at 252.73 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92f7efba-a353-4f14-918d-b6ee020a7b17")
+		)
+		(pin "Din" input
+			(at 231.14 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "463bf339-f2db-430b-841e-f31b9ff15a00")
+		)
+		(instances
+			(project "hall effect keyboard"
+				(path "/d6cd2c7a-4b62-4ee3-9519-bce8a1bda3f1/a26a8aa4-acd6-4116-aaa2-8a8a474f0fd9"
+					(page "147")
+				)
+			)
+		)
+	)
+)
