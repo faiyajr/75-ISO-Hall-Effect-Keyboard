@@ -1,4 +1,13 @@
 # 75% ISO Hall-Effect Keyboard (Custom STM32 Design)
+## ❤️ Sponsor — PCBWay
+
+This project was proudly sponsored by **PCBWay**, who provided free, high-quality PCBs for fabrication.
+
+PCBWay made the entire process smooth and stress-free—from uploading designs to receiving professionally manufactured boards. Fast turnaround times, clear DFM feedback, and excellent board quality made it easy to iterate quickly and focus on the engineering.
+
+If you're building hardware projects, prototyping PCBs, or refining a design, I highly recommend checking them out.
+
+🔗 https://www.pcbway.com
 
 This project started as an exploration into how far a keyboard can be pushed when it is treated like a real embedded system. Instead of relying on off-the-shelf controllers and digital switches, this keyboard is designed from the ground up around analog Hall-effect sensing, clean mixed-signal hardware, and firmware-driven behavior.
 
