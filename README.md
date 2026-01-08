@@ -1,5 +1,5 @@
 # 75% ISO Hall-Effect Keyboard (Custom STM32 Design)
-## ❤️ Sponsor — PCBWay
+## Sponsor — PCBWay
 
 This project was proudly sponsored by **PCBWay**, who provided free, high-quality PCBs for fabrication.
 
